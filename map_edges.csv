@@ -1,0 +1,8 @@
+source,target,type
+MGU,ViPNetCoordinator,Квантовый
+MTUCI,ViPNetRUCS,Квантовый
+ViPNetCoordinator,CWDM1,Служебный
+ViPNetRUCS,CWDM2,Служебный
+CWDM1,MUXNODE,Шифрованный
+CWDM2,MUXNODE,Шифрованный
+MUXNODE,KeyCenter,Управление
